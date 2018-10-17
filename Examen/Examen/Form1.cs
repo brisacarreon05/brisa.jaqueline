@@ -24,6 +24,12 @@ namespace Examen
             transporte.Carga = "";
             transporte.Tamaño = "";
             transporte.Velocidad = 123;
+
+            Transporte transporte2 = new Transporte();
+
+            transporte2.Carga = "Autos";
+            Console.WriteLine(transporte2.Carga);
+           
         }
     }
 }
