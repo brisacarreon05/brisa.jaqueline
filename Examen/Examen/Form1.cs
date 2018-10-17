@@ -27,7 +27,7 @@ namespace Examen
 
             Transporte transporte2 = new Transporte();
 
-            transporte2.Carga = "Autos";
+            transporte2.Carga = "Comida";
             Console.WriteLine(transporte2.Carga);
            
         }
